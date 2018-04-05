@@ -39,6 +39,7 @@
 }
 .big-info 
 {
+  width:98%;
   height: 150px;
   border: 1px solid black;
 }
@@ -78,7 +79,6 @@
   clear: both;
 }
 .page-footer {
-
   height: 300px;
   border: 1px solid black;
 }
@@ -95,16 +95,31 @@
     margin: 32px;
 }
 .support {
-
   width:100%;
   clear: both;
   background-image:url("image/support.png");
   background-repeat: no-repeat;
 }
-.title-support{
+.title-support {
   color: white;
 }
-.book-support .book-item{
+.book-support .book-item {
   width: 12%;
+  height: 200px;
 }
 
+.fill-in {
+  border: 1px solid black;
+}
+.group-aus {
+    padding-left: 12px;
+    margin: 0 -10px;}
+.group-aus .group-item{
+    width:24%;
+    display: inline-block;
+}
+.view-item 
+{
+  width:10%;
+  background: orange;
+}
