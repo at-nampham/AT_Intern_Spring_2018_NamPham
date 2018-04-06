@@ -2,55 +2,46 @@
     margin: 0px;
     padding: 0px;
 }
+.phone { 
+  color: #f4aa42;
+}
 .page-header {
   width: 78.3%;
   height: 100px;
 }
-.logo-header {
-  float: left;
-}
 .info-header {
-  width: 75%;
+  width:80%;
   float: right;
 }
 .info-customers {
-  margin: 20px;
   float: left;
-}
-.info {
-  float: left;
+  margin-right: 10px;
 }
 .menu-header {
-  width: 78.3%;
-}
-.menu-header .menu-list {
-  list-style-type: none;
-}
-.menu-header .item {
-  float: left;
-}
-.big-info {
-  width:98%;
-  height: 150px;
-}
-.big-info .info {
   float: right;
+  height: 30px;
 }
 .menu-header .menu-list {
   list-style-type: none;
 }
-.menu-header .item {
+.menu-header .item,.logo,.logo-header,.tour-location .info-tour,.footer-left,.footer-right .link
+.tabs .item {
   float: left;
 }
 .menu-header a {
   padding: 0px 15px;
   text-decoration: none;
 }
+.big-info {
+  height: 150px;
+}
+.big-info .info {
+  float: right;
+}
 .tour-location {
  height: 400px;
 }
 .tour-location .info-tour {
-  float: left;
   margin-left:2px ; 
   margin-right: 12px;
 }
@@ -61,24 +52,6 @@
 .book-item {
   display: inline-block;
   width:25%;
-}
-.page-footer {
-  clear: both;
-}
-.page-footer {
-  height: 300px;
-}
-.footer-left {
-  padding: 30px 25px;
-  float: left;
-}
-.footer-right {
-  width: 70%;
-  float: right;
-}
-.footer-right .link {
-    float: left;
-    margin: 32px;
 }
 .support {
   width:100%;
@@ -99,9 +72,6 @@
   height: 100px;
   border: 1px solid black;
 }
-.logo {
-  float: left;
-}
 .tabs {
   float: right;
 }
@@ -112,9 +82,8 @@
 .group-aus .group-item {
     width:24.8%;
     display: inline-block;
-  
 }
-.title-book{
+.title-book {
   color: #e6e6e6;
 }
 .view-item {
@@ -127,9 +96,6 @@
 .link .infor {
   list-style-type: none;
 }
-.tabs .item {
-  float: left;
-}
 .book-support {
   margin:0px auto;
   width:70%;
@@ -139,10 +105,31 @@
 .book-support .book-link {
   list-style-type: none;
 }
- .book-link .item{
+ .book-link .item {
   float: left;
   margin: 5px;
- }
- form p{
+}
+ .customers {
+  width:50px;
+  height: 32px;
+}
+ form p {
   padding: 15px;
- }
+}
+.page-footer {
+  clear: both;
+}
+.page-footer {
+  height: 300px;
+}
+.footer-left {
+  padding: 30px 25px;
+}
+.footer-right {
+  width: 70%;
+  float: right;
+}
+.footer-right .link {
+    margin: 32px;
+}
+ 
