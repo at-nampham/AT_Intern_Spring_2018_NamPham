@@ -167,6 +167,11 @@ body {
 input[type='submit'] {
   background: #2ea1db;
 }
+.mail{
+  float: right;
+  width:60%;
+  margin:20px;
+}
 .page-footer {
   clear: both;
   height: 300px;
