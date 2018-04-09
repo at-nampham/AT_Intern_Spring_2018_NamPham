@@ -22,7 +22,7 @@
             <div class="info-customers">
               <section class="customers"><img src="image/person.png" alt="person"></section>
               <h3 class="title">Taking care of customers overtime</h3>
-              <p class="para-info">Hotel:<span class="phone">0906636171</span>/ Tour:<span class="phone">0938238004</span></p>     
+              <p class="para-info">Hotel:<span class="phone">0906636171</span>/ Tour:<span class="phone">0938238004</span></p> 
             </div>
           </div>
         </div>
@@ -50,8 +50,8 @@
            <!--tour-location-->
         <section class="tour-location">
           <h3 class="title">Interesting Destination</h3>
-          <ul class="interest-destination">
-            <li class="view-item"><a href="">View More &gt;</a></li>
+          <ul class="view-img">
+            <li class="view-item"><a href="">View more &gt;</a></li>
           </ul>
           <div class="info-tour">
             <img src="image/boat.jpg" alt="boat">
@@ -79,15 +79,21 @@
             <img src="image/sun.png" alt="sun">
           </div>
           <ul class="tabs">
-            <li class="item"><a href="">Search tour</a>
-              <form> 
-                <input type="text" name="locus" placeholder="location">
-                <input type="text" name="longs" placeholder="length">
-                <input type="text" name="cost" placeholder="price">
-                <input type="submit" name="search" value="Search">
-              </form>
+            <li class="item">
+              <input type="radio" name="tabs" id="tabs-1" checked>
+              <label for="tabs-1">Search tour<p>let's choose a destination</p></label>
+              <div class="tabs-form">
+                <form>
+                  <input type="text" name="locus" placeholder="location" size="70">
+                  <input type="text" name="long" placeholder="lenght" size="20">
+                  <input type="text" name="cost" placeholder="price" size="10">
+                  <input type="submit" name="submit" value="Search">
+                </form>
+              </div>
             </li>
-            <li class="item"><a href="">Serach Hotel</a>
+            <li class="item">
+              <input type="radio" name="tabs" id="tabs-2">
+              <label for="tabs-2">Search hotel<p>choose the hotel that fit you need</p></label>
             </li>
           </ul>   
         </section>      
