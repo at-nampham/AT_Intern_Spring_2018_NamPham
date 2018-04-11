@@ -58,14 +58,12 @@
 }
 
 .banner-title{
-
   text-align: center;
   position: absolute;
   top: 70%;
   left: 10%;
   color: #fff;
   width:80%;
-  
 }
 .banner-title .title{
   font-size: 52px;
@@ -286,4 +284,7 @@
   font-size: 22px;
   padding-left: 52px;
   margin-left: 18px;
+}
+.banner img {
+  width:100%;
 }
