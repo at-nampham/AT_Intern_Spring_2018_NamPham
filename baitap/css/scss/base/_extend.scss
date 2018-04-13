@@ -1,0 +1,6 @@
+%message-shared {
+	display:block;
+}
+.tour-item {
+	@extend %message-shared;
+}
