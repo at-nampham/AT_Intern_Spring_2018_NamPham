@@ -1,0 +1,22 @@
+.menu-header {
+	float: right;
+	padding: 0px;
+	.menu-list {
+  		list-style-type: none;
+  		.item a {
+			padding: 0px 15px;
+			display: block;
+		  	text-decoration: none;
+		}
+		&:a {
+			display: block;
+  			color: #ffc966;
+  		}
+	}
+}	
+.big-info {
+	height: 150px;
+	.info {
+  		float: right;
+	}
+}

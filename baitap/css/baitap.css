@@ -10,7 +10,6 @@
 }
 .page-header {
   clear: both;
-
   height: 200px;
   padding: 0px; 
 }
@@ -47,7 +46,7 @@
 }
 .menu-list .item a:hover,.infor .item a:hover {
   display: block;
-  color: orange;
+  color: #ffc966;
 }
 .big-info {
   height: 150px;
@@ -84,6 +83,27 @@
   background: #0099ff;
   color: #fff;
 }
+.tabs .item > input:checked + label {
+  background-color: #ddd; }
+.tabs .item > input:checked + label ~ .tabs-form {
+  display: block; }
+
+.link-view {
+  width: 70%; 
+}
+.link-view .link-view a {
+  float: right;
+  text-decoration: none; }
+
+.para-title {
+  width: 80%;
+  font-size: 22px;
+  padding-left: 52px;
+  margin-left: 18px; }
+
+.banner img {
+  width: 100%; }
+
 .tour-location {
   margin-top: -140px ;
   position: relative;
@@ -124,7 +144,6 @@
   font-size: 32px;
   color: white;
 }
-
 .book-support .book-item {
   width: 24%;
   height: 200px;
@@ -149,7 +168,7 @@
 }
 .view-item {
   width: 100px;
-  background: orange;
+  background: #ffc966;
 }
 .view-item a {
   text-decoration: none;
@@ -193,43 +212,6 @@
 .footer-right .footer-link {
   margin: 32px;
 }
-.image{
-  position: relative;
-}
-.img-info{
-  width:85%;
-  padding-bottom:12px; 
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.img-inform {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width:80%;
-}
-.para-inform {
-  height: 30px;
-  background:#666; 
-}
-.title-tour {
-  width:62%;
-  color: #fff;
-}
-.para-left span ,.para-right span {
-  color: #e6e6e6;
-}
-.para-right {
-  float: right;
-  right: 0;
-}
-.para-left {
-  float: left;
-}
-.para-right {
-  float: right;
-}
 .tabs {
   background-image:url("../image/background.jpg");
   margin: 30px; 
@@ -238,37 +220,40 @@
   width: 70%;
   height: 130px;
   position: relative;
+  
 }
-.tabs .tabs-form {
-  height: 30px;
-  position: absolute;
-  display: none;
-  padding:10px; 
-  height: 200px;
-  left: 0;
-}
+.tabs-form 
+  {
+    height: 30px;
+    position: absolute;
+    display: none;
+    padding:10px; 
+    height: 200px;
+    left: 0;
+    }
+.tabs-form input {
+      height: 30px;
+      border-radius: 12px;
+    }
+.tabs-form form button {
+      background: #4da6ff;
+      width:80px;
+      padding: 15px;
+      border-radius: 12px;
+    }
 .tabs::after {
   content: "";
   clear: both;
   display: block;
-}
-.tabs-form input {
-  height: 30px;
-  border-radius: 12px;
-}
-.tabs-form form button{
-  background: #4da6ff;
-  width:80px;
-  padding: 15px;
-  border-radius: 12px;
 }
 .item label p {
   padding-top: 20px;
 }
 .tabs .item > input { 
   display: none;
+  
 }
-.tabs .item > label {
+.tabs .item >label {
   display: inline-block;
   cursor: pointer;
   height: 80px;
@@ -277,35 +262,7 @@
 }
 .tabs .item > input:checked + label {
   background-color: #ddd;
-}
-.tabs .item > input:checked ~ .tabs-form {
+  ~ .tabs-form {
   display: block;
-}
-.link-view {
- width:70%;
-}
-.link-view a {
-  float: right;
-  text-decoration: none;
-}
-.para-title {
-  width:80%;
-  font-size: 22px;
-  padding-left: 52px;
-  margin-left: 18px;
-}
-.banner img {
-  width:100%;
-}
-
-@media screen and (max-width: 923px)
-{
-  .logo-header,.info-header {
-   width:100%;
-   float: none;
-  }
-  .tour-location {
-    float: none;
-   width:100%;
   }
 }
